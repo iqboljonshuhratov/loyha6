@@ -1,0 +1,339 @@
+
+
+.bir {
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid black;
+
+    .tepa {
+        width: 100%;
+        height: 90px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 80px;
+
+        p {
+            font-size: 24px;
+        }
+
+        .soz ul {
+            display: flex;
+            list-style: none;
+            gap: 60px;
+        }
+
+        .rasm {
+
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            .insta {
+                width: 30px;
+                
+            }
+        }
+
+
+    }
+
+    .past {
+        width: 100%;
+        height: 680px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 80px;
+        
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            text-align: center;
+        }
+    }
+}
+
+// bir tugadi
+
+.ikki {
+    width: 100%;
+    height: 680px;
+    
+
+    .tepa {
+        width: 100%;
+        height: 200px;
+        
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 80px 20px 80px;
+        align-items: flex-end;
+
+
+        strong {
+            font-size: 48px;
+
+        }
+
+        button {
+            padding: 20px 27px;
+            background-color: #E7FAFE;
+            border: none;
+            border-radius: 5px;
+
+        }
+
+    }
+
+    .past {
+        width: 100%;
+        height: 480px;
+        display: flex;
+        gap: 40px;
+        padding: 90px 80px;
+
+        .d1 {
+            width: 15%;
+            height: 205px;
+            background: linear-gradient(180deg, rgba(240, 158, 0, 0) 0%, rgba(240, 158, 0, 0.1) 100%);
+            border-radius: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 5px 0px 40px 0px;
+            justify-content: space-between;
+
+            img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+    }
+}
+
+// ikki tugadi
+
+.uch {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 80px;
+    text-align: center;
+
+}
+
+//  uch tugadi
+
+
+.tort {
+    width: 100%;
+    height: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 80px;
+  
+  
+}
+
+
+// boshqa bolim
+
+
+//  ikkinchi boshlandi
+
+
+.ikkinchi {
+    width: 100%;
+    height: 309px;
+    display: flex;
+
+    .chap {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+        .tepa {
+            width: 100%;
+            height: 70%;
+            padding: 80px 0px 0px 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            strong {
+                font-size: 64px;
+            }
+        }
+
+        .past {
+            width: 100%;
+            height: 30%;
+            display: flex;
+            gap: 15px;
+            padding: 0px 80px;
+            align-items: center;
+            justify-content: center;
+
+            nav:nth-child(1) {
+                display: flex;
+                column-gap: 15px;
+                padding: 0px 35px;
+                height: 40px;
+                align-items: center;
+
+            
+            .d1 {
+                width: 50px;
+                height: 50px;
+                display: flex;
+                padding: 17px;
+                
+            }
+
+            .d2 {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+            }
+        }
+        nav:nth-child(2) {
+            display: flex;
+            column-gap: 15px;
+            padding: 0px 35px;
+            border-left: 1px solid black;
+            height: 40px;
+            align-items: center;
+        
+        .d1 {
+            width: 50px;
+            height: 50px;
+            display: flex;
+            padding: 17px;
+            
+        }
+
+        .d2 {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+    }
+        }
+
+    }
+}
+
+
+// sait qism boshlandi
+
+.sait {
+    width: 100%;
+    height: 210px;
+    display: flex;
+
+    .chap {
+        width: 60%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        padding: 0px 0px 0px 130px;
+        justify-content: center;
+    }
+
+    .ong {
+        width: 20%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0px;
+
+
+        img {
+            width: 20px;
+        }
+    }
+}
+
+
+// ikkinchi tugadi
+
+
+ .uchinchi {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    padding: 30px 80px;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 30px;
+    }
+ }
+
+// uchinchi qism tugad
+
+
+// katta qism boshlandi
+
+
+// kkata qism tugadi
+
+
+.katta2 {
+    width: 65%;
+    height: 1430px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 10px 10px 10px 80px;
+
+    .divv {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        padding: 0px 0px 0px 48px;
+
+        .konteynir {
+            width: 100%;
+            height: 178px;
+            display: block;
+            background: linear-gradient(90deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0) 100%);
+            padding: 35px;
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+
+            strong{    
+                font-family: 'Inter';
+                font-style: italic;
+                font-size: 36px;
+                line-height: 64px;
+            }
+        }
+
+        nav {
+            display: flex;
+            gap: 24px;
+
+            strong {
+                font-size: 24px;
+            }
+        }
+    
+    }
+}
+
+
